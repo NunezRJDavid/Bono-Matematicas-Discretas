@@ -16,8 +16,10 @@ Problemas Seleccionados
 
  Problema 2. Calculadora General de Combinaciones  
   Descripción: Calcula el número de formas de seleccionar $r$ elementos de un conjunto de $n$ objetos donde el orden de selección    no importa.
+  
   Fórmula: $$\\binom{n}{r} \= \\frac{n\!}{r\!(n-r)\!}$$  
-\Eficiencia:Implementado en tiempo $\\mathcal{O}(\\min(r, n-r))$ mediante el uso estratégico de la identidad de simetría $\\binom{n}{r} \= \\binom{n}{n-r}$, evitando desbordamientos de memoria al prescindir del cálculo aislado de factoriales masivos.
+
+  Eficiencia:Implementado en tiempo $\\mathcal{O}(\\min(r, n-r))$ mediante el uso estratégico de la identidad de simetría $\\binom{n}{r} \= \\binom{n}{n-r}$, evitando desbordamientos de memoria al prescindir del cálculo aislado de factoriales masivos.
 
 \ Problema 3\. Conteo de Cadenas Binarias con Restricciones  
 \* \*\*Descripción:\*\* Determina la cantidad total de cadenas binarias de longitud $n$ bajo criterios dinámicos ingresados por el usuario.  
