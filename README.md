@@ -52,22 +52,22 @@ Siga estos pasos para ejecutar el proyecto en su computadora:
 1. Requisitos Previos
 Tener instalado Python 3.x. Puede verificarlo ejecutando:
 
-```bash
-```bash
+```
 python --version
 ```
 
 2. Clonar el Repositorio
 Descargue el proyecto en su entorno local:
 
-```bash
-git clone https://github.com/TU_USUARIO/bono-programacion-discretas.git
+```
+git clone https://github.com/NunezRJDavid/Bono-Matematicas-Discretas.git
 ```
 
 3. Navegar a la Carpeta
 Entre al directorio del proyecto:
-```bash
-cd bono-programacion-discretas
+
+```
+cd Bono-Matematicas-Discretas
 ```
 
 4. Ejecutar el Programa
