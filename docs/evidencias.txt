@@ -1,0 +1,22 @@
+=== PRUEBAS PROBLEMA 2: COMBINACIONES ===
+
+
+Prueba 1 (Estándar): C(6, 3) = 20
+Prueba 2 (Caso r=0): C(10, 0) = 1
+Prueba 3 (Verificar Simetría): C(8, 3) == C(8, 5) -> True
+Prueba 4 (Fila Pascal n=4): [1, 4, 6, 4, 1]
+Prueba 5 (Fila Pascal n=6): [1, 6, 15, 20, 15, 6, 1]
+
+
+
+
+
+
+=== PRUEBAS PROBLEMA 3: CADENAS BINARIAS ===
+
+
+Prueba 1 (Todas las cadenas n=5): 32
+Prueba 2 (Exactamente k=2 unos, n=4): 6
+Prueba 3 (A lo sumo k=2 unos, n=4): 11
+Prueba 4 (Al menos k=1 uno, n=3): 7
+Prueba 5 (Igual número ceros y unos, n=6): 20
