@@ -1,14 +1,14 @@
-\Bono de Programación — Problemas 2 y 3  
-\Estudiante: Javier David Nuñez Robles  
-\Materia: Matemáticas Discretas I  
-\Universidad: Universidad Nacional de Colombia  
-\Docente: Jhoan Sebastian Tenjo García
+Bono de Programación — Problemas 2 y 3  
+Estudiante: Javier David Nuñez Robles  
+Materia: Matemáticas Discretas I  
+Universidad: Universidad Nacional de Colombia  
+Docente: Jhoan Sebastian Tenjo García
 
 \---
 
-\ Estructura del Proyecto  
-\`main.py\`: Archivo fuente principal en Python con las funciones, validaciones de errores y casos de prueba.  
-\`docs/evidencias.txt\`: Registro de la salida generada por la consola al ejecutar las pruebas.
+Estructura del Proyecto  
+`main.py\`: Archivo fuente principal en Python con las funciones, validaciones de errores y casos de prueba.  
+`docs/evidencias.txt\`: Registro de la salida generada por la consola al ejecutar las pruebas.
 
 \---
 
