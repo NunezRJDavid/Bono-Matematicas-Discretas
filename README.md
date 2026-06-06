@@ -21,7 +21,8 @@ Descripción: Calcula el número de formas de seleccionar $r$ elementos de un co
   
 Fórmula: $$\\binom{n}{r} \= \\frac{n\!}{r\!(n-r)\!}$$  
 
-Eficiencia:Implementado en tiempo $\\mathcal{O}(\\min(r, n-r))$ mediante el uso estratégico de la identidad de simetría $\\binom{n}{r} \= \\binom{n}{n-r}$, evitando desbordamientos de memoria al prescindir del cálculo aislado de factoriales masivos.
+Eficiencia: Implementado en tiempo $\\mathcal{O}(\\min(r, n-r))$ mediante el uso estratégico de la identidad de simetría $\\binom{n}{r} \= \\binom{n}{n-r}$, evitando desbordamientos de memoria al prescindir del cálculo aislado de factoriales masivos.
+
 
 
 
@@ -30,19 +31,45 @@ Eficiencia:Implementado en tiempo $\\mathcal{O}(\\min(r, n-r))$ mediante el uso 
 Descripción: Determina la cantidad total de cadenas binarias de longitud $n$ bajo criterios dinámicos ingresados por el usuario.  
 
 Principios Combinatorios:
+
 Sin restricciones: Regla del producto ($2^n$).  
+
 Exactamente $k$ unos: Coeficiente binomial $\\binom{n}{k}$.  
+
 A lo sumo $k$ unos: Sumatoria acumulada $\\sum\_{i=0}^{k} \\binom{n}{i}$.  
+
 Al menos $k$ unos: Sumatoria acumulada $\\sum\_{i=k}^{n} \\binom{n}{i}$.  
 
-Eficiencia:Complejidad temporal lineal de $\\mathcal{O}(n)$ en los peores escenarios (sumatorias completas), garantizando respuestas inmediatas.
+
+Eficiencia: Complejidad temporal lineal de $\\mathcal{O}(n)$ en los peores escenarios (sumatorias completas), garantizando respuestas inmediatas.
 
 \---
 
 ## Instrucciones de Ejecución
 
-1. Asegúrate de tener instalado \*\*Python 3.x\*\* en tu sistema.  
-2. Clona este repositorio o descarga el archivo \`main.py\`.  
-3. Abre una terminal en la ruta del proyecto y ejecuta:  
-   \`\`\`bash  
-   python main.py
+Siga estos pasos para ejecutar el proyecto en su computadora:
+
+1. Requisitos Previos
+Tener instalado Python 3.x. Puede verificarlo ejecutando:
+
+Bash
+python --version
+
+2. Clonar el Repositorio
+Descargue el proyecto en su entorno local:
+
+Bash
+git clone https://github.com/TU_USUARIO/bono-programacion-discretas.git
+(Cambie TU_USUARIO por su nombre real de GitHub).
+
+3. Navegar a la Carpeta
+Entre al directorio del proyecto:
+Bash
+cd bono-programacion-discretas
+
+
+4. Ejecutar el Programa
+Corra las funciones de conteo combinatorio y las pruebas automatizadas con:
+
+Bash
+python main.py
