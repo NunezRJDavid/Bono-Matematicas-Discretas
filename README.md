@@ -54,6 +54,7 @@ Tener instalado Python 3.x. Puede verificarlo ejecutando:
 
 ```bash
 python --version
+`
 
 2. Clonar el Repositorio
 Descargue el proyecto en su entorno local:
