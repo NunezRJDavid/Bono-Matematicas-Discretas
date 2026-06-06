@@ -60,18 +60,19 @@ python --version
 2. Clonar el Repositorio
 Descargue el proyecto en su entorno local:
 
-Bash
+```bash
 git clone https://github.com/TU_USUARIO/bono-programacion-discretas.git
-(Cambie TU_USUARIO por su nombre real de GitHub).
+```
 
 3. Navegar a la Carpeta
 Entre al directorio del proyecto:
-Bash
+```bash
 cd bono-programacion-discretas
-
+```
 
 4. Ejecutar el Programa
 Corra las funciones de conteo combinatorio y las pruebas automatizadas con:
 
-Bash
+```
 python main.py
+```
