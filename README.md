@@ -53,7 +53,7 @@ Siga estos pasos para ejecutar el proyecto en su computadora:
 Tener instalado Python 3.x. Puede verificarlo ejecutando:
 
 ```bash
-#```bash
+```bash
 python --version
 ```
 
