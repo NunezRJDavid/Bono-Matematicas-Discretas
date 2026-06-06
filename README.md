@@ -1,4 +1,4 @@
-Bono de Programación — Problemas 2 y 3  
+# Bono de Programación — Problemas 2 y 3  
 
 Estudiante: Javier David Nuñez Robles  
 Materia: Matemáticas Discretas I  
@@ -7,13 +7,13 @@ Docente: Jhoan Sebastian Tenjo García
 
 \---
 
-# Estructura del Proyecto  
+## Estructura del Proyecto  
 `main.py\`: Archivo fuente principal en Python con las funciones, validaciones de errores y casos de prueba.  
 `docs/evidencias.txt\`: Registro de la salida generada por la consola al ejecutar las pruebas.
 
 \---
 
-# Problemas Seleccionados
+## Problemas Seleccionados
 
 Problema 2. Calculadora General de Combinaciones  
 
@@ -38,7 +38,7 @@ Eficiencia:Complejidad temporal lineal de $\\mathcal{O}(n)$ en los peores escena
 
 \---
 
-# Instrucciones de Ejecución
+## Instrucciones de Ejecución
 
 1. Asegúrate de tener instalado \*\*Python 3.x\*\* en tu sistema.  
 2. Clona este repositorio o descarga el archivo \`main.py\`.  
