@@ -52,7 +52,7 @@ Siga estos pasos para ejecutar el proyecto en su computadora:
 1. Requisitos Previos
 Tener instalado Python 3.x. Puede verificarlo ejecutando:
 
-Bash
+```bash
 python --version
 
 2. Clonar el Repositorio
